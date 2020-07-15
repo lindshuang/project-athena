@@ -1,0 +1,46 @@
+:root {
+	--main-bg: #181818;
+	--beige: #FFFFF6;
+	--burnt-orange: #EF5A39;
+}
+
+@font-face {
+	font-family: "Sometype-Mono";
+	src: url(../fonts/SometypeMono-Bold.ttf);
+	font-weight: bold;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#wrapper {
+	height: 100%;
+}
+
+#main {
+	height: 100%;
+}
+
+#contact {
+	background-color: var(--main-bg);
+	height: 100%;
+}
+
+#team {
+	background-color: var(--beige);
+	height: 100%;
+}
+
+.section-title {
+	color: white;
+	font-family: "Sometype-Mono";
+	font-weight: bold;
+	margin: 0;
+}
+
+.subsection-title {
+	font-family: "Sometype-Mono";
+	font-weight: bold;
+}
