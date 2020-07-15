@@ -1,16 +1,21 @@
+/* Variables for frequently used colors */
 :root {
 	--main-bg: #181818;
-	--beige: #FFFFF6;
-	--burnt-orange: #EF5A39;
+	--secondary-bg: #FFFFF6;
+	--highlight: #EF5A39;
 }
 
+/* Imported font */
 @font-face {
 	font-family: "Sometype-Mono";
 	src: url(../fonts/SometypeMono-Bold.ttf);
 	font-weight: bold;
 }
 
+/* Basic CSS for page outlines! */
 html, body {
+	font-family: "Sometype-Mono";
+	font-weight: bold;
 	height: 100%;
 	margin: 0;
 }
@@ -19,28 +24,22 @@ html, body {
 	height: 100%;
 }
 
-#main {
-	height: 100%;
-}
-
-#contact {
+.dark-page {
 	background-color: var(--main-bg);
 	height: 100%;
+	padding: 100px;
 }
 
-#team {
-	background-color: var(--beige);
-	height: 100%;
-}
-
-.section-title {
+.dark-page h1 {
 	color: white;
-	font-family: "Sometype-Mono";
-	font-weight: bold;
-	margin: 0;
 }
 
-.subsection-title {
-	font-family: "Sometype-Mono";
-	font-weight: bold;
+.light-page {
+	background-color: var(--secondary-bg);
+	height: 100%;
+	padding: 100px;
+}
+
+.light-page h1 {
+	color: var(--main-bg);
 }
