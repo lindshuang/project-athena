@@ -53,11 +53,17 @@ html, body {
 	float: left;
 	padding-right: 20px;
 	text-align: right;
-	width: 300px;
+	width: 35%;
 }
 
 #teams {
 	float: left;
 	padding-left: 20px;;
-	width: 500px;
+	width: 600px;
+}
+
+.team-pictures img {
+	height: 100px;
+	padding: 10px;
+	width: 100px;
 }
