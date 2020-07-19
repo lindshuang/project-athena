@@ -47,23 +47,3 @@ html, body {
 .light-page h1 {
 	color: var(--main-bg);
 }
-
-/* CONTACT PAGE SPECIFIC CSS */
-#team-title {
-	float: left;
-	padding-right: 20px;
-	text-align: right;
-	width: 35%;
-}
-
-#teams {
-	float: left;
-	padding-left: 20px;;
-	width: 600px;
-}
-
-.team-pictures img {
-	height: 100px;
-	padding: 10px;
-	width: 100px;
-}
