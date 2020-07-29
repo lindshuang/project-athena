@@ -48,6 +48,63 @@ html, body{
 	font-family: 'Sometype Mono';
 }
 
+#footer {
+  width: 100%;
+  background-color: #fafaf7;
+  position: absolute;
+  bottom: 0;
+  /* opacity: 0.1;*/
+  padding: 15px;
+  overflow: hidden;
+  padding-left: 20px;
+  color: #212121;
+}
+
+#footer p {
+  margin: 0;
+}
+
+.footer-left {
+  float: left;
+  width: 25%;
+}
+
+.made-with {
+  text-align: center;
+  width: 75%;
+}
+
+#footer .made-with p {
+  margin-top: 12px;
+  font-family: "Open-Sans", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.footer-logo {
+  width: 20px;
+  overflow: hidden;
+}
+
+.footer-img {
+  width: 100%;
+}
+
+
+.fa {
+  padding-right: 15px;
+  color: #212121;
+
+}
+
+.social-icons {
+  text-align: left;
+  padding-top: 8px;
+  width: 200px;
+  margin-right: 0;
+}
+
+
 
 /*MEDIA QUIERIES--------------------------*/
 
@@ -78,5 +135,6 @@ html, body{
 	padding-left: 37%;
 	padding-right: 37%;
 }
+
 
 }
