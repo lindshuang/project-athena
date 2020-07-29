@@ -1,0 +1,82 @@
+/*mobile first!!!!-------------------------------------*/
+@font-face {
+  font-family: "Sometype Mono";
+  src: url("SometypeMono-Regular.ttf") format("truetype");
+}
+
+html, body{
+	overflow-x: hidden;
+	background-color: #1a1919;
+}
+
+/*header*/
+.logo{
+	width: 50px;
+	padding-left: 20px;
+}
+
+/*nav*/
+.nav-custom{
+	padding: 15px 10px;
+	font-size: 14px;
+	font-family: 'Sometype Mono';
+}
+
+.logo-mobile{
+	padding-top: 10px;
+	width: 40px;
+}
+
+.nav-link-custom{
+	margin: 0;
+	padding: 0;
+}
+
+.text{
+/*	margin-top: 50px;*/
+	width: 100%;
+/*	background-color: gray;*/
+	padding-left: 20%;
+	padding-right: 20%;
+	position: absolute;
+	top: 45%;
+}
+
+.main-title{
+	text-align: center;
+	color: white;
+	font-family: 'Sometype Mono';
+}
+
+
+/*MEDIA QUIERIES--------------------------*/
+
+@media(min-width: 768px){
+
+/*navbar*/
+.navbar{
+	font-family: 'Sometype Mono';
+}
+
+.logo-mobile{
+	padding: 0;
+}
+
+
+/*home page*/
+.text{
+	padding-left: 32%;
+	padding-right: 32%;
+}
+
+}
+
+@media(min-width: 992px){
+
+/*home page*/
+.text{
+	padding-left: 37%;
+	padding-right: 37%;
+}
+
+}
